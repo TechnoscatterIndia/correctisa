@@ -1,0 +1,143 @@
+/* ===== About CSS ===== */
+
+.ud-about {
+  background: #f3f4fe;
+  padding: 50px 0;
+
+  @media #{$xs} {
+    padding: 80px 0;
+  }
+}
+
+.ud-about-wrapper {
+  background: var(--black);
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  display: flex;
+  justify-content: space-between;
+
+  @media #{$md, $xs} {
+    display: block;
+  }
+}
+
+.ud-about-content-wrapper {
+  padding: 70px;
+
+  @media #{$xs} {
+    padding: 50px 30px;
+  }
+
+  @media #{$sm} {
+    padding: 50px;
+  }
+}
+
+.ud-about-content {
+  max-width: 500px;
+
+  .tag {
+    font-weight: 500;
+    font-size: 14px;
+    
+    background: var(--primary-color);
+    padding: 5px 20px;
+    display: inline-block;
+    margin-bottom: 20px;
+    
+    color: var(--black);
+  }
+
+  h2 {
+    font-weight: 600;	
+    font-size: 36px;	
+    line-height: 45px;	
+    margin-bottom: 15px;	
+    color: var(--black);
+
+    @media #{$xs} {
+      font-size: 26px;
+      line-height: 38px;
+    }
+    img {		
+      width: 20%;		
+      margin-left: 2%;		
+     }
+  }
+
+  .ud-sec2-content h2 {	
+    font-weight: 600;	
+    font-size: 36px;	
+    line-height: 45px;	
+    margin-bottom: 15px;	
+    color: var(--black);	
+  }	
+  .ud-about-content h5 {	
+    font-weight: 600;	
+    font-size: 25px;	
+    line-height: 45px;	
+    margin-bottom: 20px;	
+    color: var(--black);	
+  }	
+  .ud-sec2-content h5 {	
+    font-weight: 600;	
+    font-size: 25px;	
+    line-height: 45px;	
+    margin-bottom: 20px;	
+    color: var(--black);	
+  }
+
+  p {
+    font-size: 14px;	
+  /*line-height: 13px;*/	
+  /*margin-bottom: 20px;*/
+  }
+  		
+.ud-sec2-content span {	
+  font-size: 14px;	
+  /*line-height: 13px;*/	
+  margin-bottom: 8%;	
+}	
+.ud-sec2-content p {	
+  font-size: 20px;	
+  /*line-height: 13px;*/	
+  /*margin-bottom: 20px;*/	
+  color: var(--heading-color);	
+  font-weight: 400;	
+}	
+.ud-about-content span {	
+  font-size: 20px;	
+  /*line-height: 13px;*/	
+  margin-bottom: 20px;	
+  font-weight: 500;	
+  color: var(--heading-color);	
+}	
+.ud-about-content p .date-month {	
+  font-size: 14px;	
+  /*line-height: 13px;*/	
+  margin-bottom: 20px;	
+  font-weight: 500;	
+  color: var(--heading-color);	
+}	
+.ud-about-content .Bearbeiten {	
+  font-size: 14px;	
+  /*line-height: 13px;*/	
+  /*margin-bottom: 20px;*/	
+  font-weight: 700;	
+  margin-top: 10%;	
+}
+
+  .ud-main-btn {
+    &:hover {
+      background: #2748b4;
+      box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+    }
+  }
+}
+.ud-about-image img {		
+  display: none;		
+}
+.ud-about-image {
+  @media #{$md, $xs} {
+    text-align: center;
+  }
+}
